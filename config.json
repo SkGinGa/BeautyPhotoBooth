@@ -1,0 +1,225 @@
+{
+  "version": 5,
+  "app_name": "美颜自拍亭",
+  "printer": "DP-DS620",
+  "sdk_path": "",
+  "countdown_seconds": 5,
+  "beauty_mode": "local",
+  "beauty_strength": 0.9,
+  "external_timeout": 120,
+  "mirror_preview": true,
+  "print_media": "6x4",
+  "templates": [
+    {
+      "id": "single",
+      "name": "简约 · 单张",
+      "subtitle": "6 英寸成片",
+      "shots": 1,
+      "overlay": "single.png",
+      "thumbnail": "single-preview.jpg",
+      "canvas": [
+        1800,
+        1200
+      ],
+      "slots": [
+        {
+          "box": [
+            60,
+            60,
+            1680,
+            990
+          ],
+          "photo": 0
+        }
+      ]
+    },
+    {
+      "id": "four",
+      "name": "浅蓝 · 四格",
+      "subtitle": "6 英寸成片",
+      "shots": 4,
+      "overlay": "four.png",
+      "thumbnail": "four-preview.jpg",
+      "canvas": [
+        1800,
+        1200
+      ],
+      "slots": [
+        {
+          "box": [
+            60,
+            60,
+            810,
+            480
+          ],
+          "photo": 0
+        },
+        {
+          "box": [
+            930,
+            60,
+            810,
+            480
+          ],
+          "photo": 1
+        },
+        {
+          "box": [
+            60,
+            580,
+            810,
+            480
+          ],
+          "photo": 2
+        },
+        {
+          "box": [
+            930,
+            580,
+            810,
+            480
+          ],
+          "photo": 3
+        }
+      ]
+    },
+    {
+      "id": "strips",
+      "name": "双三格 · 同组",
+      "subtitle": "两列同组",
+      "shots": 3,
+      "overlay": "strips.png",
+      "thumbnail": "strips-preview.jpg",
+      "canvas": [
+        1200,
+        1800
+      ],
+      "slots": [
+        {
+          "box": [
+            45,
+            45,
+            510,
+            420
+          ],
+          "photo": 0
+        },
+        {
+          "box": [
+            645,
+            45,
+            510,
+            420
+          ],
+          "photo": 0
+        },
+        {
+          "box": [
+            45,
+            495,
+            510,
+            420
+          ],
+          "photo": 1
+        },
+        {
+          "box": [
+            645,
+            495,
+            510,
+            420
+          ],
+          "photo": 1
+        },
+        {
+          "box": [
+            45,
+            945,
+            510,
+            420
+          ],
+          "photo": 2
+        },
+        {
+          "box": [
+            645,
+            945,
+            510,
+            420
+          ],
+          "photo": 2
+        }
+      ]
+    },
+    {
+      "id": "two",
+      "name": "竖版 · 双格",
+      "subtitle": "6 英寸成片",
+      "shots": 2,
+      "overlay": "two.png",
+      "thumbnail": "two-preview.jpg",
+      "canvas": [
+        1200,
+        1800
+      ],
+      "slots": [
+        {
+          "box": [
+            60,
+            60,
+            1080,
+            680
+          ],
+          "photo": 0
+        },
+        {
+          "box": [
+            60,
+            780,
+            1080,
+            680
+          ],
+          "photo": 1
+        }
+      ]
+    },
+    {
+      "id": "wide",
+      "name": "暖色 · 单张",
+      "subtitle": "6 英寸成片",
+      "shots": 1,
+      "overlay": "wide.png",
+      "thumbnail": "wide-preview.jpg",
+      "canvas": [
+        1800,
+        1200
+      ],
+      "slots": [
+        {
+          "box": [
+            80,
+            80,
+            1300,
+            1040
+          ],
+          "photo": 0
+        }
+      ]
+    }
+  ],
+  "preview_title": "拍照免费，删一张50（本标题可编辑）",
+  "brand_logo": "logo-placeholder.png",
+  "covers": [
+    {
+      "id": "welcome-default",
+      "name": "默认欢迎封面",
+      "image": "welcome.jpg"
+    }
+  ],
+  "active_cover": "welcome-default",
+  "archived_templates": [],
+  "archived_covers": [],
+  "camera_backend": "auto",
+  "video_device": "",
+  "auto_driver_check": true
+}
